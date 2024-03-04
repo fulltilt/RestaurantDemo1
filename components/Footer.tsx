@@ -95,7 +95,7 @@ const Footer = () => {
         </div>
         <div className="py-4 border-t border-white/19">
           <p className="text-white/60 text-center text-sm">
-            Copyright &copy; W'Food 2023
+            Copyright &copy; W&apos;Food 2023
           </p>
         </div>
       </div>

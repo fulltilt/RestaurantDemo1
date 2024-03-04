@@ -37,9 +37,9 @@ const StyleGuide = () => {
         <p>ajfiewajfoije;of ajfoeiwajfio vaeoivejaovj vjeoijveoijv;ioerj</p>
         <div className="bg-black p-24 flex flex-col gap-y-4">
           <Link href="/">Link</Link>
-          <Button variant="default2">Let's Go</Button>
-          <Button variant="orange">Let's Go</Button>
-          <Button variant="input">Let's Go</Button>
+          <Button variant="default2">Let&apos;s Go</Button>
+          <Button variant="orange">Let&apos;s Go</Button>
+          <Button variant="input">Let&apos;s Go</Button>
           <div>
             <Label htmlFor="firstname">First Name</Label>
             <Input

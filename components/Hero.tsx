@@ -52,7 +52,7 @@ const Hero = () => {
                 viewport={{ once: false, amount: 0.4 }}
                 className="text-white mb-12 max-w-lg mx-auto xl:max-w-none xl:mx-0"
               >
-                <Button variant="default2">Let's eat</Button>
+                <Button variant="default2">Let&apos;s eat</Button>
               </motion.div>
             </div>
           </div>
