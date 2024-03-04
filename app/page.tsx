@@ -3,8 +3,11 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Menu from "@/components/Menu";
 import Reservation from "@/components/Reservation";
-import Map from "@/components/Map";
+// import Map from "@/components/Map";
 import Footer from "@/components/Footer";
+
+import dynamic from "next/dynamic";
+const Map = dynamic(() => import("@/components/Map"), { ssr: false });
 
 export default function Home() {
   return (
@@ -14,7 +17,7 @@ export default function Home() {
       <Menu />
       <Reservation />
       <About />
-      <Map />
+      {typeof window !== "undefined" && <Map />}
       <Footer />
     </main>
   );
