@@ -14,11 +14,11 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setActive(window.scrollY > 100);
+      setActive(window?.scrollY > 100);
     };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window?.addEventListener("scroll", handleScroll);
+    return () => window?.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
